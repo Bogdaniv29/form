@@ -27,3 +27,28 @@
     background-color: skyblue;
     transform: translate(-50%, -50%);
   }
+
+  .close__icon {
+width: 18px;
+height: 18px;
+  }
+
+  .close__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  .close__btn:hover
+  .close__btn:focus {
+
+  }
+
+  .modal__title {
+    
+  }

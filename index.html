@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <button class="btn-open" data-modal-open>Відкрити модалку</button>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-          <button class="btn" data-modal-close>Закрити</button>
-          <p>....</p>
-        </div>
-      </div>  
-      
-      
-      <script src="./modal.js"></script>
-</body>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close__btn" data-modal-close>
+          Закрити
+          <svg class="class__icon">
+            <use href="./img/symbol-defs.svg"></use>
+          </svg>
+        </button>
+        <h1 class="modal__title">Reach out to us!</h1>
+        <form>
+          <label for="">
+            <input type="text" />
+          </label>
+          <label for="">
+            <input type="text" />
+          </label>
+          <label for="">
+        <textarea name="mesage" id="" cols="30" rows="10"></textarea>
+          </label>
+          <button type="submit">Send message</button>
+        </form>
+        <p>....</p>
+      </div>
+    </div>
+
+    <script src="./modal.js"></script>
+  </body>
 </html>
