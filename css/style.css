@@ -21,8 +21,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 400px;
-  min-height: 300px;
+  min-width: 800px;
+  min-height: 550px;
   padding: 15px;
   background-color: skyblue;
   transform: translate(-50%, -50%);
@@ -51,4 +51,9 @@ height: 18px;
 
 .modal__title {
   
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
