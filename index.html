@@ -8,7 +8,22 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <button class="btn-open" data-modal-open>Відкрити модалку</button>
+    <header class="header"></header>
+    <main>
+      <section class="hero">
+        <div class="hero__left__thumb">
+          <img
+            src="./img/car.jpg"
+            alt="musicalsinstrumentscb"
+            class="hero__left__img"
+          />
+        </div>
+        <div class="hero__right__thumb">
+          <img src="./img/cbcat.jpg" alt="cbcat" class="hero__right__img" />
+        </div>
+        <button class="btn-open" data-modal-open>Відкрити модалку</button>
+      </section>
+    </main>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close__btn" data-modal-close>
@@ -20,13 +35,19 @@
         <form class="form">
           <label class="form__label" for="">
             name
-            <input placeholder="Your name*" type="text"/>
+            <input placeholder="Your name*" type="text" />
           </label>
           <label class="form__label" for="">
             <input placeholder="Your e-mail*" type="text" />
           </label>
           <label class="form__label" for="">
-        <textarea placeholder="Your message*" name="mesage" id="" cols="30" rows="10"></textarea>
+            <textarea
+              placeholder="Your message*"
+              name="mesage"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
           </label>
           <button class="form__button" type="submit">Send message</button>
         </form>

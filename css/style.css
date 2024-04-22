@@ -1,3 +1,27 @@
+.hero {
+  height: 100vh;
+  background-image: url(https://pixabay.com/illustrations/ai-generated-street-neon-future-7809190/);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: skyblue;
+}
+
+.hero__left__thumb {
+
+}
+
+.hero__right__thumb {
+  
+}
+
+.hero_left__img {
+
+}
+
+.hero_right__img {
+
+}
+
 .btn-open {
   display: block;
   margin: 0 auto;
