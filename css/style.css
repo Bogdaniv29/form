@@ -1,3 +1,20 @@
+.btn-open {
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px 40px;
+  background-color: #2f00ff;
+  color: #fff;
+  border-radius: 100px;
+  border: 1px solid #2f00ff;
+}
+
+.btn-open:hover,
+.btn-open:focus {
+  background-color: #ffffff;
+  color: #0f0f0f;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -29,8 +46,8 @@
 }
 
 .close__icon {
-width: 18px;
-height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
 .close__btn {
@@ -39,21 +56,34 @@ height: 18px;
   align-items: center;
   width: 30px;
   height: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.10);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: #fff;
 }
 
-.close__btn:hover
+.close__btn:hover,
 .close__btn:focus {
-
+  border: 1px solid #ff0000;
 }
 
 .modal__title {
-  
 }
 
 .form {
   display: flex;
   flex-direction: column;
+  gap: 15px;
+}
+
+.form__button {
+  color: #fff;
+  font-family: "Apercu Arabic Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 150px;
+  height: 50px;
+  border-radius: 500px;
+  background: #fad34f;
 }
