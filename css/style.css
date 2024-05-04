@@ -1,3 +1,7 @@
+.body {
+  
+}
+
 .hero {
   height: 100vh;
   background-image: url(https://pixabay.com/illustrations/ai-generated-street-neon-future-7809190/);
@@ -7,15 +11,18 @@
 }
 
 .hero__left__thumb {
-
+  bottom: 300px;
+  left: 150px;
+  width: 600px;
 }
 
 .hero__right__thumb {
-  
+  top: 100px;
+  right: 100px;
+  width: 450px;
 }
 
 .hero_left__img {
-
 }
 
 .hero_right__img {
@@ -31,6 +38,7 @@
   color: #fff;
   border-radius: 100px;
   border: 1px solid #2f00ff;
+  font-family: "Lugrasimo", cursive;
 }
 
 .btn-open:hover,
@@ -91,6 +99,7 @@
 }
 
 .modal__title {
+  font-family: "Jacquard 12 Charted", system-ui;
 }
 
 .form {
@@ -101,7 +110,7 @@
 
 .form__button {
   color: #fff;
-  font-family: "Apercu Arabic Pro";
+  font-family: "Lugrasimo", cursive;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
